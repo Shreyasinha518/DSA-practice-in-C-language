@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Shrey/OneDrive/Documents/GitHub/DSA-practice-in-C-language/DSA-practice-in-C-language/DSA-practice-in-C-language",
+      "program": "c:/Users/Shrey/OneDrive/Documents/GitHub/DSA-practice-in-C-language/DSA-practice-in-C-language/DSA-practice-in-C-language/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
