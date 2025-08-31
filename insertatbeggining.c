@@ -57,7 +57,7 @@ void display(struct node*head){ //displaying the node
             }
             else{              //link other nodes
                 temp->next=newnode;
-                temp=temp->next;;
+                temp=temp->next;
                 
             }
 
