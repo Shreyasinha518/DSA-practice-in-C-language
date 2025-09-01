@@ -58,7 +58,7 @@ void insert_at_position(struct node** head, int data, int pos) {
     
         struct node* temp = *head;
         // Traverse to the node *before* the insertion point
-        for (int i = 1; i < pos - 1; i++) {
+        for (int i = 1; i < pos ; i++) {
             temp = temp->next;
         }
         newnode->next = temp->next;
@@ -81,6 +81,8 @@ int main() {
 
     // Loop to create the initial linked list
     for (int i = 0; i < n; i++) {
+        
+        
         printf("Enter data for node %d: ", i + 1);
         scanf("%d", &data);
         struct node* newnode = create_node(data);
