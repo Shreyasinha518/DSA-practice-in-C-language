@@ -30,8 +30,9 @@ void delete_at_begginig(struct node**head){
         temp=*head;
         *head=temp->next;
         (*head)->prev=NULL;
-            return (temp);
+            free(temp);
     }
+    return;
 
 }
 int main(){
